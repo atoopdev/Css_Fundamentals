@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+h1, p{
+    margin: 0;
+}
+
+h1, h2{
+    color: darkblue;
+}
+
+h1{
+    text-align: center;
+    margin: 45px;
+    font-size: 48px;
+    color: #2E7AD3;
+}
+
+h2{
+    font-size: 32px;
+    color: #104C90;
+    margin: 0px;
+}
+
+img{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+p{
+ margin-bottom: 9px;
+ font-size: 16px;
+}
+
+.card{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.blog-post{
+    width: 500px;
+    margin: 45px auto;
+    padding: 30px;
+    background-color: rgb(245, 243, 243);
+}
+
+a{
+    color:#FF8000;
+    font-weight: 600;
+}
