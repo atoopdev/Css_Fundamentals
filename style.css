@@ -22,3 +22,19 @@ p{
 .links{
     margin-top: 40px;
 }
+
+.accent-color{
+    color: blue;
+}
+
+a:link, a:visited{
+    color:blue;
+}
+
+a:focus{
+    color: yellow;
+}
+
+a:hover, a:active{
+    color: white;
+}
