@@ -1,19 +1,18 @@
+/* font size goes in body */
 body{
     width: 100%;
     font-family: sans-serif;
+    font-size: 16px;
 }
 
-h1, p{
+h1, h2, p{
     margin: 0;
 }
 
-h1, h2{
-    color: darkblue;
-}
 
 h1{
     text-align: center;
-    margin: 45px;
+    margin: 45px 0;
     font-size: 48px;
     color: #2E7AD3;
 }
@@ -25,13 +24,11 @@ h2{
 }
 
 img{
-    margin-top: 10px;
-    margin-bottom: 25px;
+    margin: 10px 0 24px 0;
 }
 
 p{
  margin-bottom: 9px;
- font-size: 16px;
 }
 
 .card{
@@ -40,13 +37,24 @@ p{
 }
 
 .blog-post{
-    width: 500px;
+    width: 450px;
     margin: 45px auto;
-    padding: 30px;
-    background-color: rgb(245, 243, 243);
+    padding: 25px;
+    background-color:#f1f1f1;;
 }
 
 a{
     color:#FF8000;
     font-weight: 600;
+}
+
+a:focus{
+    color: #2E7AD3;
+}
+a:hover{
+    color: #104C90;
+}
+
+.read-more{
+    margin: 0;
 }
