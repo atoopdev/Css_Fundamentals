@@ -38,8 +38,8 @@ a {
   padding: 35px 35px;
 }
 
-.section1 h2,
-p {
+.section1 p,
+.section1 h2 {
   color: white;
 }
 
