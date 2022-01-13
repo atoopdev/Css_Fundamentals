@@ -1,0 +1,104 @@
+/* remove margins on typography to keep margins consistent */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ef5839;
+}
+
+p {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+header,
+section {
+  padding: 50px;
+}
+
+header {
+  background-color: #2e354f;
+  color: #fff;
+}
+
+img {
+  width: 520px;
+  padding: 10px 0px 0px 0px;
+}
+
+a {
+  color: #ef5839;
+}
+
+.section-one {
+}
+
+.section-two {
+  background-color: #2e354f;
+}
+
+.section-two p {
+  color: white;
+}
+
+.accent {
+  font-weight: 900;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: 900;
+  text-decoration: none;
+  margin: 15px 10px 0px 0px;
+}
+
+.dark {
+  background-color: #ef5839;
+  color: white;
+}
+
+.dark.btn:hover {
+  background-color: white;
+  color: #ef5839;
+}
+
+.dark.btn:focus {
+  background-color: white;
+  color: #ef5839;
+}
+
+.light {
+  background-color: white;
+  color: #2e354f;
+}
+
+.light.btn:hover {
+  background-color: #2e354f;
+  color: white;
+}
+
+.light.btn:focus {
+  background-color: #2e354f;
+  color: white;
+}
+
+.card {
+  width: 620px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
