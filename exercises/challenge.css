@@ -10,6 +10,12 @@ body {
   margin: 0;
   font-size: 18px;
   font-family: "Lato", sans-serif;
+  color: #2e354f;
+}
+
+h1,
+h2 {
+  font-weight: 900;
 }
 
 h1 {
@@ -48,8 +54,8 @@ a:hover {
   color: red;
 }
 
-.section-one {
-}
+/* .section-one {
+} */
 
 .section-two {
   background-color: #2e354f;
@@ -62,6 +68,14 @@ a:hover {
 .accent {
   font-weight: 900;
 }
+
+.card {
+  width: 620px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+/* button styling  */
 
 .btn {
   display: inline-block;
@@ -76,12 +90,12 @@ a:hover {
   color: white;
 }
 
-.dark.btn:hover {
+.dark:hover {
   background-color: white;
   color: #ef5839;
 }
 
-.dark.btn:focus {
+.dark:focus {
   background-color: white;
   color: #ef5839;
 }
@@ -91,18 +105,12 @@ a:hover {
   color: #2e354f;
 }
 
-.light.btn:hover {
+.light:hover {
   background-color: #2e354f;
   color: white;
 }
 
-.light.btn:focus {
+.light:focus {
   background-color: #2e354f;
   color: white;
-}
-
-.card {
-  width: 620px;
-  margin: 0 auto;
-  border: 1px solid black;
 }
