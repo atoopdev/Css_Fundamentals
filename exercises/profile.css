@@ -1,0 +1,16 @@
+/* remove margins on typography to keep margins consistent */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.card {
+  width: 570px;
+  margin: 0 auto;
+}
