@@ -25,12 +25,15 @@ h1 {
 
 h2 {
   font-size: 42px;
+  padding: 20px 0;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 h3 {
   font-size: 36px;
   font-weight: 900;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 P {
@@ -62,19 +65,33 @@ a:focus {
   padding-top: 0;
 }
 
-.bold-text {
+.accent-text {
   display: block;
+}
+
+.name,
+time,
+.accent-text {
   font-weight: 900;
+  color: #99d930;
 }
 
-.bold-text h1 {
-  font-size: 80px;
-}
-
-.bold-text h2 {
-  font-size: 60px;
-}
 .container {
   width: 570px;
   margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  background-color: #99d930;
+  color: #252525;
+  padding: 15px 30px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #252525;
+  color: #fff;
 }
