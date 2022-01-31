@@ -1,3 +1,8 @@
+html {
+  /* prevent font scaling issues */
+  font-size: 18px;
+}
+
 /* remove margins on typography to keep margins consistent */
 h1,
 h2,
@@ -8,7 +13,8 @@ p {
 
 body {
   margin: 0;
-  font-size: 18px;
+  /* prevent font scaling issues */
+  font-size: 1rem;
   font-family: "Lato", sans-serif;
   color: #2e354f;
 }
@@ -19,11 +25,11 @@ h2 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 2rem;
   color: #ef5839;
 }
 
@@ -41,9 +47,18 @@ header {
   color: #fff;
 }
 
+/* adjust for responsiveness */
 img {
-  width: 520px;
+  width: 100%;
   padding: 10px 0px 0px 0px;
+}
+
+/* for "em"font-size is inherited from body if not on parent element */
+/* em is percentage of parent. 1=100% */
+/*  em can have problem where using em's on parent object results in multiple multiplications - switch to rem to avoid*/
+/* rem only inherits from root element */
+ul {
+  font-size: 1rem;
 }
 
 a {
@@ -69,8 +84,12 @@ a:hover {
   font-weight: 900;
 }
 
+/* percentage determined relative to parent size */
+/* if parent is a block level element default width is 100% */
 .card {
-  width: 620px;
+  width: 90%;
+  max-width: 620px;
+  min-width: 325px;
   margin: 0 auto;
   border: 1px solid black;
 }
