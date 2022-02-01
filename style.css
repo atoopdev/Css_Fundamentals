@@ -26,6 +26,11 @@ h1 {
   font-size: 24px;
 }
 
+h2 {
+  /* sets margin size to match font size */
+  margin-bottom: 1em;
+}
+
 p {
   font-size: 18px;
 }
@@ -55,7 +60,8 @@ a {
 
 .btn {
   display: inline-block;
-  padding: 10px 25px;
+  /* emis relative to font size */
+  padding: 0.5em 1.25em;
   font-weight: 700;
   text-decoration: none;
   margin-top: 30px;
