@@ -28,6 +28,7 @@ h1 {
 
 h2 {
   /* sets margin size to match font size */
+  /* great if font size changes - margins will not need editing */
   margin-bottom: 1em;
 }
 
