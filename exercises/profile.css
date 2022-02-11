@@ -129,6 +129,9 @@ img {
 }
 
 @media (min-width: 750px) {
+  .container {
+    max-width: 1200px;
+  }
   .splitter {
     display: flex;
     justify-content: center;
@@ -165,5 +168,33 @@ img {
   .articles.inverse h2 {
     /* will always match text color */
     border-color: currentColor;
+  }
+
+  .portfolio {
+    min-height: 100vh;
+    background-color: #252525;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .portfolio h2 {
+    color: #fff;
+  }
+
+  .work {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .portfolio-item {
+    width: 28%;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: 15em;
+    /* prevent stretch */
+    object-fit: cover;
   }
 }
