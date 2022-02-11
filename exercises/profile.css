@@ -91,6 +91,7 @@ h2 .accent-text {
 .container {
   /* make responsive at all sizes */
   max-width: 570px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -117,5 +118,39 @@ img {
 @media (min-width: 600px) {
   html {
     font-size: 1.3125rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .splitter {
+    display: flex;
+    justify-content: center;
+  }
+
+  .articles.inverse {
+    background-color: #99d930;
+    color: #252525;
+  }
+
+  .articles a,
+  .articles span,
+  .articles time {
+    /* inherits from parent */
+    color: currentColor;
+  }
+
+  /* .articles .accent-text {
+    color: white;
+  } */
+
+  .articles .btn {
+    color: #99d930;
+    background-color: #252525;
+  }
+
+  .articles .btn:hover,
+  .articles .btn:focus {
+    background-color: #fff;
+    color: #252525;
   }
 }
