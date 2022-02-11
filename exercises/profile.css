@@ -24,7 +24,7 @@ h2 {
 }
 h1 {
   font-size: 3.75rem;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 h2 {
@@ -43,6 +43,13 @@ h3 {
 p {
   padding: 1em 0px 0px;
 }
+
+header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 header,
 section {
   padding: 6.25em 0;
@@ -125,6 +132,7 @@ img {
   .splitter {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .articles.inverse {
@@ -144,7 +152,7 @@ img {
   } */
 
   .articles.inverse .btn {
-    color: #99d930;
+    color: #fff;
     background-color: #252525;
   }
 
@@ -155,7 +163,7 @@ img {
   }
 
   .articles.inverse h2 {
-    border-top: 1px solid #252525;
-    border-bottom: 1px solid #252525;
+    /* will always match text color */
+    border-color: currentColor;
   }
 }
