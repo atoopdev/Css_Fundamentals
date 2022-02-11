@@ -132,9 +132,9 @@ img {
     color: #252525;
   }
 
-  .articles a,
-  .articles span,
-  .articles time {
+  .articles.inverse a,
+  .articles.inverse span,
+  .articles.inverse time {
     /* inherits from parent */
     color: currentColor;
   }
@@ -143,14 +143,19 @@ img {
     color: white;
   } */
 
-  .articles .btn {
+  .articles.inverse .btn {
     color: #99d930;
     background-color: #252525;
   }
 
-  .articles .btn:hover,
-  .articles .btn:focus {
+  .articles.inverse .btn:hover,
+  .articles.inverse .btn:focus {
     background-color: #fff;
     color: #252525;
+  }
+
+  .articles.inverse h2 {
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;
   }
 }
